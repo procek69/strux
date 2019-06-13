@@ -1,0 +1,31 @@
+{
+  "name": "strux",
+  "version": "0.0.0",
+  "description": "Transform utility to structure flat array.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/procek69/strux.git"
+  },
+  "keywords": [
+    "vanilla",
+    "structures",
+    "rest",
+    "api",
+    "arrays",
+    "functional"
+  ],
+  "author": "procek69",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/procek69/strux/issues"
+  },
+  "homepage": "https://github.com/procek69/strux#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
