@@ -1,12 +1,14 @@
 {
-  "name": "strux",
+  "name": "@kaboom.ninja/strux",
   "version": "0.0.0",
   "description": "Transform utility to structure flat array.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "watch": "jest --watch index.test.js"
+    "watch": "jest --watch index.test.js",
+    "publish": "npm publish --access=public"
   },
+  "public": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/procek69/strux.git"
